@@ -1,0 +1,49 @@
+# View2Build — robots.txt
+# Explicitly welcome traditional + AI search crawlers.
+
+User-agent: *
+Allow: /
+
+# Google (Search + Gemini grounding)
+User-agent: Googlebot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft Bing (powers ChatGPT search + Copilot)
+User-agent: Bingbot
+Allow: /
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Claude-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+
+# Common Crawl (feeds many models)
+User-agent: CCBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://view2build.co.uk/sitemap.xml
